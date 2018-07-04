@@ -7,15 +7,11 @@ require "erp/banners/version"
 Gem::Specification.new do |s|
   s.name        = "erp_banners"
   s.version     = Erp::Banners::VERSION
-  s.authors     = ["Luan Pham",
-                  "Son Nguyen",
-                  "Hung Nguyen"]
-  s.email       = ["luanpm@hoangkhang.com.vn",
-                  "sonnn@hoangkhang.com.vn",
-                  "hungnt@hoangkhang.com.vn"]
-  s.homepage    = "http://globalnaturesoft.com/"
-  s.summary     = "Banners features of website E-commerce."
-  s.description = "Banners features of website E-commerce."
+  s.authors     = ["Nguyen Ton Hung"]
+  s.email       = ["1633514@hcmut.edu.vn"]
+  s.homepage    = "http://hcmut.edu.vn/"
+  s.summary     = "Banners features."
+  s.description = "Banners features."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
